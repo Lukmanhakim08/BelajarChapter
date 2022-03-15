@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp">
+
+    <EditText
+        android:id="@+id/angkesatu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan angka satu"/>
+
+    <EditText
+        android:id="@+id/angkedua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan angka dua"/>
+
+
+    <Button
+        android:id="@+id/proses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah +"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnWebview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Binar"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnlatihan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan Satu"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/latihan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan Dua"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/texthasil"
+        android:text="hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
