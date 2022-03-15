@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".LatihanKetiga">
+
+    <LinearLayout
+        android:id="@+id/ly_satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Pembeli :"
+            android:textSize="15dp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtnama"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/textnama"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Nama"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_dua"
+        android:layout_below="@+id/ly_satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Ebook :"
+            android:textSize="15dp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtjudul"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/textjudul"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Judul"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_tiga"
+        android:layout_below="@+id/ly_dua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textbanyak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Bali :"
+            android:textSize="15dp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtbanyak"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/textbanyak"
+            android:layout_height="wrap_content"
+            android:hint="jumlah yang dibeli"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_keempat"
+        android:layout_below="@+id/ly_tiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textharga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga : Rp"
+            android:textSize="15dp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtharga"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/textharga"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Harga"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ly_kelima"
+        android:layout_below="@+id/ly_keempat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textbayar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uang Bayar : Rp"
+            android:textSize="15dp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtbayar"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/textbayar"
+            android:layout_height="wrap_content"
+            android:hint="Bayar"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btntransaksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ly_kelima"
+        android:text="PROSES" />
+
+    <LinearLayout
+        android:id="@+id/ly_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btntransaksi"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/texttotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textkembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textbonus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textketerang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnResetdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ly_text"
+        android:text="     RESET DATA     " />
+
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ly_text"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:text="        KELUAR        " />
+
+</RelativeLayout>

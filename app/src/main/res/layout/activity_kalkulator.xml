@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KalkulatorActivity"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:id="@+id/edtangka_satu"
+        android:hint="masukkan angka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtangka_dua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan angka dua"
+        android:layout_below="@+id/edtangka_satu"/>
+
+    <Button
+        android:id="@+id/btntambah"
+        android:layout_below="@+id/edtangka_dua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnkurang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtangka_dua"
+        android:layout_toRightOf="@+id/btntambah"
+        android:text="-"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnkali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtangka_dua"
+        android:layout_toRightOf="@+id/btnkurang"
+        android:text="*"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnbagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtangka_dua"
+        android:layout_toRightOf="@+id/btnkali"
+        android:textSize="20dp"
+        android:text="/" />
+
+    <EditText
+        android:id="@+id/texthasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btntambah"
+        android:layout_marginTop="10dp"
+        android:hint="0"/>
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texthasil"
+        android:layout_centerInParent="true"
+        android:text="Reset" />
+
+</RelativeLayout>

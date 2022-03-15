@@ -14,8 +14,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarChapter3">
         <activity
+            android:name=".LatihanKetiga"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityLyfe"
+            android:exported="false" />
+        <activity
+            android:name=".KalkulatorActivity"
+            android:exported="false" />
+        <activity
             android:name=".LatihanSatu"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".HalamanDua"
             android:exported="false" />
@@ -24,11 +33,13 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WebView"
-            android:exported="false"/>
+        <activity
+            android:name=".WebView"
+            android:exported="false" />
     </application>
 
 </manifest>

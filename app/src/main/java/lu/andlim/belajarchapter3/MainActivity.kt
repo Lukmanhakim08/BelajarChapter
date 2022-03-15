@@ -34,8 +34,18 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btnlatihan2.setOnClickListener {
-            val intent = Intent(this, LatihanSatu::class.java)
+        btnkalkulator.setOnClickListener {
+            val intent = Intent(this, KalkulatorActivity::class.java)
+            startActivity(intent)
+        }
+
+        latihan_kedua.setOnClickListener {
+            val intent = Intent(this, ActivityLyfe::class.java)
+            startActivity(intent)
+        }
+
+        latihan_ketiga.setOnClickListener {
+            val intent = Intent(this, LatihanKetiga::class.java)
             startActivity(intent)
         }
     }

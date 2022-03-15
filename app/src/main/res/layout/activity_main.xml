@@ -21,34 +21,64 @@
         android:layout_height="wrap_content"
         android:hint="masukkan angka dua"/>
 
-
-    <Button
-        android:id="@+id/proses"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tambah +"
-        android:layout_gravity="center_horizontal"/>
+        android:orientation="horizontal"
+        android:layout_gravity="center">
 
-    <Button
-        android:id="@+id/btnWebview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Web Binar"
-        android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/proses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah +"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"/>
 
-    <Button
-        android:id="@+id/btnlatihan1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Latihan Satu"
-        android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/btnWebview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web Binar"
+            android:layout_gravity="center_horizontal"/>
 
-    <Button
-        android:id="@+id/btnlatihan2"
-        android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/btnlatihan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latihan 1"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Belajar dua"
-        android:layout_gravity="center_horizontal"/>
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnkalkulator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kalkulator"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/latihan_kedua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latihan dua"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/latihan_ketiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latihan Kedua"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/texthasil"
