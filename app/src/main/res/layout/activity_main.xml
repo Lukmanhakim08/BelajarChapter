@@ -47,7 +47,7 @@
         android:id="@+id/latihan2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Latihan Dua"
+        android:text="Belajar dua"
         android:layout_gravity="center_horizontal"/>
 
     <TextView
