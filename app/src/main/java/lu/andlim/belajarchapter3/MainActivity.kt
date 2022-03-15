@@ -33,6 +33,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, LatihanSatu::class.java)
             startActivity(intent)
         }
+
+        btnlatihan2.setOnClickListener {
+            val intent = Intent(this, LatihanSatu::class.java)
+            startActivity(intent)
+        }
     }
 
 
