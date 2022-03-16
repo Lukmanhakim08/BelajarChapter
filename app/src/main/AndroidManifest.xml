@@ -14,11 +14,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarChapter3">
         <activity
-            android:name=".LatihanKetiga"
+            android:name=".wisatan.DashhomeActivity"
             android:exported="false" />
         <activity
-            android:name=".ActivityLyfe"
+            android:name=".wisatan.ProfileActivity"
             android:exported="false" />
+        <activity
+            android:name=".wisatan.WebWisataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".wisatan.HomeActivity"
+            android:exported="false"
+            android:label="Home" />
+        <activity
+            android:name=".wisatan.LoginActivity"
+            android:exported="false"
+            android:label="Login" />
+        <activity
+            android:name=".LatihanKetiga"
+            android:exported="false"
+            android:label="Latihan Ketiga" />
+        <activity
+            android:name=".ActivityLyfe"
+            android:exported="false"
+            android:label="ActivitLyfe" />
         <activity
             android:name=".KalkulatorActivity"
             android:exported="false" />

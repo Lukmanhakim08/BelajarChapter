@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wisatan.HomeActivity"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/texthalama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to Dashboard"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnhome"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texthalama"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/btnweb"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texthalama"
+        android:layout_alignParentRight="true"
+        android:text="halaman WEB" />
+
+
+    <Button
+        android:id="@+id/btnprofile"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnhome"
+        android:layout_marginTop="0dp"
+        android:text="Profil" />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnhome"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:text="Logout" />
+
+</RelativeLayout>

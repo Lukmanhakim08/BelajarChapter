@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
+import lu.andlim.belajarchapter3.wisatan.LoginActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,12 +41,17 @@ class MainActivity : AppCompatActivity() {
         }
 
         latihan_kedua.setOnClickListener {
-            val intent = Intent(this, ActivityLyfe::class.java)
+            val  intent = Intent(this, ActivityLyfe::class.java)
             startActivity(intent)
         }
 
         latihan_ketiga.setOnClickListener {
             val intent = Intent(this, LatihanKetiga::class.java)
+            startActivity(intent)
+        }
+
+        btnIn.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
     }

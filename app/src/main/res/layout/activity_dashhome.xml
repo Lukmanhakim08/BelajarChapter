@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wisatan.DashhomeActivity"
+    android:layout_margin="20dp">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/wisata1"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wisata taman bunga Flora Wisata San Terra menawarkan pemandangan bunga-bunga yang indah dan pegunungan. Pengunjung bisa melihat 700 jenis bunga yang membuat swafoto semakin indah. Adapun, berbagai macam spot foto yang bisa ditemukan di sana antara lain, Little Korea, Little Amsterdam, Taman Bunga, dan Rainbow Wisteria. Baca juga: Menuju Flora Wisata San Terra Malang, Ini 3 Alternatif Transportasinya Setelah puas berswafoto, pengunjung bisa menjajal wahana dan aktivitas, di antaranya trampolin, sepatu roda, ontang-anting, kolam renang, dan wahana seru lainnya. Tiket masuk Flora Wisata San Terra saat hari biasa adalah Rp 25.000 per orang. Sementara itu, tiket masuk saat weekend atau libur nasional adalah Rp Artikel ini telah tayang di Kompas.com dengan judul "/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>
