@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
+import lu.andlim.belajarchapter3.keempat.HalamansatuActivity
 import lu.andlim.belajarchapter3.wisatan.LoginActivity
 
 class MainActivity : AppCompatActivity() {
@@ -52,6 +53,11 @@ class MainActivity : AppCompatActivity() {
 
         btnIn.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnIntenlan.setOnClickListener {
+            val intent = Intent(this, HalamansatuActivity::class.java)
             startActivity(intent)
         }
     }
