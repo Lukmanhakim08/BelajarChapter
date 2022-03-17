@@ -6,17 +6,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".keempat.HalamansatuActivity"
+    android:layout_margin="20dp"
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/edtnamaq"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="masukkan nama"/>
-
-    <Button
-        android:id="@+id/tambah"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tambah"/>
+        android:text="Input Nilai Mahasiswa"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtnis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan uts"/>
+
+    <EditText
+        android:id="@+id/edtuas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan uas"/>
+
+
+    <EditText
+        android:id="@+id/edttugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan Tugas"/>
+
+    <EditText
+        android:id="@+id/edtnamamhs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan Mahasisw"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnprosessatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proses"/>
+
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnprosesbundle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bundle"/>
+
 </LinearLayout>

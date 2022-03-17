@@ -6,17 +6,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".keempat.HalamanduaActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_margin="20dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="welcome halaman kedua"/>
+        android:text="Hasil Nilai Mahasiswa"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
 
     <TextView
-        android:id="@+id/textnama"
+        android:id="@+id/textnamamhs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/textnilai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/textgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/textket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
 
 </LinearLayout>

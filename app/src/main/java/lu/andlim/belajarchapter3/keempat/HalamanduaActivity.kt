@@ -10,7 +10,18 @@ class HalamanduaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_halamandua)
 
-        val datanama = intent.getStringExtra("nama")
-        textnama.text = datanama
+        textnamamhs.setText(intent.getStringExtra("namamhs"))
+        textnilai.setText(intent.getStringExtra("total"))
+        textgrade.setText(intent.getStringExtra("grade"))
+        textket.setText(intent.getStringExtra("keterangan"))
+
+
+        // Bundle
+        val bund = intent.extras
+        textnamamhs.setText(bund?.getString("namahs"))
+        textnilai.setText(bund?.getString("total"))
+        textgrade.setText(bund?.getString("grade"))
+        textket.setText(bund?.getString("keterangan"))
+
     }
 }
