@@ -14,6 +14,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarChapter3">
         <activity
+            android:name=".MiniChalange.Screen4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MiniChalange.Screen3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MiniChalange.Screen2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MiniChalange.Screen1Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".keempat.HalamanduaActivity"
             android:exported="false" />
         <activity
@@ -56,11 +74,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".WebView"

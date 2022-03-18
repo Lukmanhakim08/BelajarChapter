@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
+import lu.andlim.belajarchapter3.MiniChalange.Screen1Activity
 import lu.andlim.belajarchapter3.keempat.HalamansatuActivity
 import lu.andlim.belajarchapter3.wisatan.LoginActivity
 
@@ -60,6 +61,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, HalamansatuActivity::class.java)
             startActivity(intent)
         }
+
+        btnmini.setOnClickListener {
+            val intent = Intent(this, Screen1Activity::class.java)
+            startActivity(intent)
+        }
+
     }
 
 

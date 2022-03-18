@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiniChalange.Screen2Activity"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halaman Screen 2"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/edtsaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btnSceentiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Screen 3"
+        android:layout_below="@+id/edtsaya"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
