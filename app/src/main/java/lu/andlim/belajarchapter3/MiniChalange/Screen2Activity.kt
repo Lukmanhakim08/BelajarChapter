@@ -13,10 +13,8 @@ class Screen2Activity : AppCompatActivity() {
         setContentView(R.layout.activity_screen2)
 
         btnSceentiga.setOnClickListener {
-            val namasaya = edtsaya.text.toString()
-
             val pindah = Intent(this, Screen3Activity::class.java)
-            pindah.putExtra("nama", namasaya)
+            pindah.putExtra("namasaya", edtsaya.text.toString())
             startActivity(pindah)
         }
     }

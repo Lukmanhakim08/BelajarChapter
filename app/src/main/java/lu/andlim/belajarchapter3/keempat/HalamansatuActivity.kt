@@ -89,6 +89,5 @@ class HalamansatuActivity : AppCompatActivity() {
             startActivity(pindah)
         }
 
-
     }
 }
