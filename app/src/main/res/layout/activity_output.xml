@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Serializable.latihanserializable.OutputActivity"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/t_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nama"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/t_umur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_nama"
+        android:text="umur"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    />
+
+    <TextView
+        android:id="@+id/t_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_umur"
+        android:text="Alamat"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    />
+
+    <TextView
+        android:id="@+id/t_hobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_alamat"
+        android:text="hobi"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    />
+
+    <TextView
+        android:id="@+id/t_ket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_hobi"
+        android:text="ganjil genap"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

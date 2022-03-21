@@ -14,6 +14,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarChapter3">
         <activity
+            android:name=".Serializable.latihankedua.ToActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Serializable.latihankedua.OneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Serializable.latihanserializable.OutputActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Serializable.latihanserializable.InputActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Serializable.KeduaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Serializable.PertamaActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MiniChalange.Screen4Activity"
             android:exported="false" />
         <activity
@@ -24,13 +48,7 @@
             android:exported="false" />
         <activity
             android:name=".MiniChalange.Screen1Activity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".keempat.HalamanduaActivity"
             android:exported="false" />
@@ -73,8 +91,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".WebView"
             android:exported="false" />
